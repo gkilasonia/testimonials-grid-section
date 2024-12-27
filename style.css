@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(210, 46%, 95%);
+  padding: 70px 24px 0 24px;
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 70px;
+}
+
+section {
+  padding: 26px 32px 32px 32px;
+}
+
+img {
+  border-radius: 50%;
+  width: 28px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Section containers */
+.clifford-section-container {
+  border-radius: 8px;
+  background-color: hsl(263, 55%, 52%);
+  position: relative;
+}
+
+.walters-section-container {
+  border-radius: 8px;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.harmon-section-container,
+.whittle-section-container {
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.abrams-section-container {
+  border-radius: 8px;
+  background-color: hsl(219, 29%, 14%);
+}
+
+.picture-and-header-container {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  height: 32px;
+}
+
+/* 2 images have a colored border */
+
+.clifford-image,
+.abrams-image {
+  border: 2px solid hsl(264, 82%, 70%);
+  box-sizing: content-box;
+}
+
+/* Individual names */
+.individual-name {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.clifford-name,
+.walters-name,
+.abrams-name {
+  color: hsl(0, 0%, 100%);
+}
+
+.harmon-name,
+.whittle-name {
+  color: hsl(217, 19%, 35%);
+}
+
+/* Graduate info */
+.graduate-info {
+  font-size: 11px;
+  line-height: 1;
+}
+
+.clifford-graduate-info,
+.walters-graduate-info,
+.abrams-graduate-info {
+  color: hsl(0, 0%, 100%, 50%);
+}
+
+.harmon-graduate-info,
+.whittle-graduate-info {
+  color: hsl(217, 19%, 35%, 50%);
+}
+
+/* Top texts */
+.top-text {
+  position: relative;
+  margin-top: 18px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.clifford-top-text,
+.walters-top-text {
+  color: hsl(0, 0%, 100%);
+}
+
+.harmon-top-text,
+.whittle-top-text {
+  color: hsl(217, 19%, 35%);
+}
+
+.abrams-top-text {
+  color: hsl(210, 46%, 95%);
+}
+
+/* Bottom texts */
+.bottom-text {
+  margin-top: 18px;
+  font-size: 13px;
+  line-height: 1.38;
+}
+
+.clifford-bottom-text {
+  color: hsl(0, 0%, 81%, 70%);
+}
+
+.walters-bottom-text,
+.abrams-bottom-text {
+  color: hsl(0, 0%, 100%, 70%);
+}
+
+.harmon-bottom-text,
+.whittle-bottom-text {
+  color: hsl(217, 19%, 35%, 70%);
+}
+
+.quotation-mark {
+  position: absolute;
+  top: 0px;
+  right: 24px;
+}
+
+.quotation-mark > img {
+  width: 104px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

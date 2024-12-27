@@ -31,7 +31,7 @@ In essence, this website offers a concise and visually engaging introduction to 
 ### Links
 
 - Solution URL: (https://github.com/gkilasonia/testimonials-grid-section)
-- Live Site URL: ()
+- Live Site URL: (https://kilasa-testimonials-grid-section.netlify.app/)
 
 ## My process
 
